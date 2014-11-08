@@ -1,3 +1,6 @@
+var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+var xhr = new XMLHttpRequest();
+
 var readFiles = function (address) {
   var numOfFiles;
   GET(address);
